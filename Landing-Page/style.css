@@ -51,7 +51,7 @@
 
 
 .logo-info{
-    margin: 70px 0px 70px 175px;
+    margin: 5vh 0 5vh 7vh;
 }
 
 .txt-info{
@@ -66,7 +66,7 @@
 }
 
 #video{
-    margin: 90px 90px 90px 150px;
+    margin: 10vh 10vh 10vh 10vh;
 }
 
 #content-description{
@@ -128,8 +128,8 @@
 
 .arrow{
     cursor: pointer;
-    width: 150%;
-    margin-top: 290%;
+    width: 5vh;
+    margin-top: 5vh;
     transition: ease-in;
 }
 
@@ -150,7 +150,7 @@ form{
 }
 
 input{
-    width: 50vh;
+    width: 130%;
     margin-bottom: 3vh;
     padding: 20px;
     border: none;
