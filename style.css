@@ -181,3 +181,81 @@ button:hover{
     transition-duration: 0.7s;
     box-shadow: 10px 10px 20px var(--dark-main);
 }
+
+@media (max-width: 450px){
+    #logo{
+        position: static;
+        justify-self: left;
+    }
+    #intro{
+        display: grid;
+        justify-items: center;
+    }
+    #intro h1{
+        width: 90vw;
+        position: static;
+        font-size: 2rem;
+    }
+    #intro p{
+        width: 90vw;
+        position: static;
+    }
+
+    #info{
+        grid-auto-flow: row;
+        justify-items: center;
+        padding-bottom: 1rem;
+    }
+    .logo-info{
+        margin-left: -0.4rem;
+    }
+    
+
+    #description{
+        grid-auto-flow: row;
+        justify-items: center;
+    }
+    #video{
+        justify-self: center;
+        width: 75vw;
+        margin: 3rem 0 0 0;
+    }
+    #content-description{
+        text-align: center;
+        width: 80%;
+    }
+    #title-description{
+        font-size: 2.2rem;
+        padding-bottom: 2rem;
+    }
+    .txt-description{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    #cards-div{
+        display: grid;
+        grid-auto-flow: row;
+        margin: 0;
+    }
+    .cards{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    .arrow{
+        justify-self: center;
+        margin: 0 0 1rem 0;
+    }
+
+    #form-section{
+        display: grid;
+    }
+    #title-form{
+        font-size: 2rem;
+    }
+    .input-form{
+        width: 20rem;
+    }
+}
